@@ -1,0 +1,21 @@
+﻿Ticket ID;Ticket Name;Patient's First Name;Patient's Last Name;Case status;Client Name;Fee Type;Case Type
+103407;123 Assist // Joel Nogueira // HR136900601245// 04-08-23//CancelaciónDeViaje;Joel;Nogueira;Rejected;123 Assist Seguro Viagem (HERO);TECHNICAL;Cancel / Delayed flight
+103382;123 Assist Seguro Viagem (HERO)//Layanna Dias dos Reis// Cancelamento de viagem//HR136900530295//04/08/23;Layanna;Dias dos Reis;Reimbursement World Medical;123 Assist Seguro Viagem (HERO);TECHNICAL;Trip cancellation
+103295;123 assist//edileia aparecida fonseca//HR136900586108//wic//04/08/2023;edileia;aparecida fonseca;Completed;123 Assist Seguro Viagem (HERO);SIMPLE;WIC/UC
+103227;123ASSIST//ROSELI CAVEDON SOARES//HR136900516466//03-08-2023//EQUIPAJE;Roseli;Cavedon Soares;Rejected;123 Assist Seguro Viagem (HERO);TECHNICAL;Baggage claim / delay
+103207;123 Assist//Claudivaldo Ribeiro de Santana//HR136900569221//wic//03-08-23;Claudivaldo;Ribeiro de Santana;Reimbursement Auto Asistencia;123 Assist Seguro Viagem (HERO);SIMPLE;WIC/UC
+103147;123assist/Julia Daher Silva/HR136900490511/equipaje/03.08.23;Julia;Daher Silva;Reimbursement World Medical;123 Assist Seguro Viagem (HERO);TECHNICAL;Baggage damage
+103019;123assist//Isabela Cristina Silva//HR136900502388/wic/02.08.2023;Isabela;Cristina Silva;Reimbursement Auto Asistencia;123 Assist Seguro Viagem (HERO);SIMPLE;WIC/UC
+102896;123 Assist//ARDALA ARIANE TRIBURTINO DE SOUSA//HR136900621724//Atraso de Equipaje//02/08/23;ARDALA ARIANE;TRIBURTINO DE SOUSA;Reimbursement World Medical;123 Assist Seguro Viagem (HERO);TECHNICAL;Baggage claim / delay
+102852;123 Assist//Anthony Ryan Calixto da Paz//HR136900534145//Cancelamiento de viaje//02.08.23;Anthony Ryan;Calixto da Paz;Rejected;123 Assist Seguro Viagem (HERO);TECHNICAL;Trip cancellation
+102845;MY TRAVEL//Madalena dos Anjos Paula Pinto//HR136900609078//ATRASO DE EQUIPAJE-02/2023;Madalena;dos Anjos Paula Pinto;Rejected;123 Assist Seguro Viagem (HERO);TECHNICAL;Baggage claim / delay
+102619;123 Assist//Ricardo Gomes de Santana vie//HR136900482944//INFO//01/08/23;Ricardo;Gomes de Santana vie;Completed;123 Assist Seguro Viagem (HERO);TECHNICAL;INFO
+102584;123 Assist/ Rosana Maria Alves Oliveira/ HR136900513578/ wic/ 01.08.2023;Rosana Maria;Alves Oliveira;Completed;123 Assist Seguro Viagem (HERO);SIMPLE;WIC/UC
+102571;123 Assist/ Rosana Maria Alves Oliveira/ HR136900513578/ PC/ 01.08.2023;Rosana Maria;Alves Oliveira;Completed;123 Assist Seguro Viagem (HERO);Telemedicine EUROPE;Telemedicine
+102967;BALT ASSISTANCE (*) 50586929-1 // AMANBAY ALMANSUR // 224224423 // ???;ALMANSUR;AMANBAY;Pending billing information;BALT;SIMPLE;WIC/UC
+102874;BALT ASSISTANCE // 50586776-1 // AMANBAY ALSEIT // 224225347 // WIC 02-08;ALSEIT;AMANBAY;Completed;BALT;SIMPLE;WIC/UC
+102379;BALT // 50585878-1 // Vorobiev Victor // ENT // 31-7-2023;Victor;Vorobiev;Cancelled;BALT;SIMPLE;Specialty
+102667;LATINASSIST// 18536 // AGUSTINA COSTA FERNANDEZ// 1 AGU 2023;AGUSTINA;COSTA FERNANDEZ/;Pending billing information;Latin Assistance (Asegura tu viaje);SIMPLE;WIC/UC
+103001;Quantico // LEONOR SOTO AHUMADA // HC // 000041463 - 000074555 // 2-8-2023;LEONOR;SOTO AHUMADA;Pending billing information;Quantico Servicios de Asistencia - 475;SIMPLE;House Call
+102895;SOS Peru // Eduardo Suarez // Telemedicine // 912923 // 2-8-23;EDUARDO;SUAREZ ALLENDE;Completed;SOS Peru;Telemedicine EUROPE;Telemedicine
+102403;SOS // 913083 // Enrique Alonso Paredes Ayala // ASISTENCIA // 31-7-2023;Enrique Alonso;Paredes Ayala;Completed;SOS Peru;Telemedicine LATAM;Telemedicine
