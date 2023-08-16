@@ -55,7 +55,7 @@
         </label>
         <br>
         <br>
-        <button id="enviarEncuesta" type="button">Enviar encuesta</button>
+        <input type="submit" id="enviarEncuesta" name="enviarEncuesta" value="Enviar Encuesta">
     </form>
 
     <section id="agradecimiento" style="display: none;">
