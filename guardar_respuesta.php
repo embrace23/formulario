@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Obtén los valores del formulario
-    //$ticket = $_GET['ticket'];
+    $ticket = $_POST['ticket'];
     $satisfaccionCentral = $_POST['satisfaccionCentral'];
     $satisfaccionProveedor = $_POST['satisfaccionProveedor'];
     $recomendarServicio = $_POST['recomendarServicio'];
@@ -11,7 +11,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $conexion = Conexion();
 
     // Prepara la consulta SQL para insertar los datos en la tabla respuestas_formulario
-    $insertQuery = "INSERT INTO respuestas_formulario (SAS_CENTRAL, SAS_PROV, RECOM) VALUES ('$satisfaccionCentral', '$satisfaccionProveedor', '$recomendarServicio')";
+    $insertQuery = "INSERT INTO respuestas_formulario (TKT, SAS_CENTRAL, SAS_PROV, RECOM) VALUES ($ticket,'$satisfaccionCentral', '$satisfaccionProveedor', '$recomendarServicio')";
 
     // Ejecuta la consulta
     if (mysqli_query($conexion, $insertQuery)) {

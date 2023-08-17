@@ -56,6 +56,7 @@
         <br>
         <br>
         <input type="submit" id="enviarEncuesta" name="enviarEncuesta" value="Enviar Encuesta">
+        <input type="hidden" name="ticket" value="<?php echo htmlspecialchars($_GET['ticket']); ?>">
     </form>
 </body>
 </html>
