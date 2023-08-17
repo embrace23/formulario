@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Mostrar Ticket</title>
+    <link rel = "icon" href = "WMMS.png">
+    <title>Encuesta de satisfacción</title>
 </head>
 <body>
     <?php
