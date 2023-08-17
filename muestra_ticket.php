@@ -13,7 +13,7 @@
         echo "<p>No se proporcionó un número de ticket válido.</p>";
     }
     ?>
-    <form id="encuestaForm">
+   <form id="encuestaForm" action="guardar_respuesta.php" method="post">
         <p>1. ¿Cuál es su grado de satisfacción con la atención recibida con nuestra central de operaciones?</p>
         <label>
             <input type="radio" name="satisfaccionCentral" value="1"> 1
@@ -57,20 +57,5 @@
         <br>
         <input type="submit" id="enviarEncuesta" name="enviarEncuesta" value="Enviar Encuesta">
     </form>
-
-    <section id="agradecimiento" style="display: none;">
-        <p>Gracias por realizar nuestra encuesta.</p>
-    </section>
-
-    <script>
-        const botonEnviar = document.getElementById("enviarEncuesta");
-        const formulario = document.getElementById("encuestaForm");
-        const agradecimiento = document.getElementById("agradecimiento");
-        botonEnviar.addEventListener("click", function(){
-            formulario.style.display = "none";
-            agradecimiento.style.display = "block";
-        })
-
-    </script>
 </body>
 </html>
