@@ -9,7 +9,7 @@ function Conexion()
     $conexion = mysqli_connect($host, $user, $pass, $db);
 
     if ($conexion) {
-        $query = "SELECT * FROM formulario_prueba";
+        $query = "SELECT * FROM pax_encuestas";
         $result = mysqli_query($conexion, $query);
 
         if ($result){
@@ -19,7 +19,6 @@ function Conexion()
 
                 $updateQuery = "UPDATE formulario_prueba SET URL = '$url' WHERE TKT = '$ticket_id'";
                 mysqli_query($conexion, $updateQuery);
-                echo "<h3>Acceda a un link personal para realizar la encuesta, muchas gracias.</h3>";
                 echo "<h3>$ticket_id</h3>";
                 echo "<a href=\"$url\">Encuesta a $ticket_id</a><br>";
             }

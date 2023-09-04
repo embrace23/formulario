@@ -1,0 +1,8 @@
+body{
+    background: rgb(222,75,66);
+    background: linear-gradient(90deg, rgba(222,75,66,1) 0%, rgba(67,71,228,1) 75%, rgba(116,114,202,1) 100%);
+}
+
+.seccionFormulario{
+    background-color: #fff;
+}
