@@ -4,6 +4,7 @@
     <title>Agradecimiento</title>
     <link rel = "icon" href = "WMMS.png">
     <link rel="stylesheet" href="styles/styles.css">
+    <meta charset="UTF-8">
 </head>
 <body>
     <div class = "seccionAgradecimiento">
@@ -21,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $recomendarServicio = $_POST['recomendarServicio'];
 
     // Incluye el archivo de conexión a la base de datos
-    $host = "localhost";
-    $user = "id21154007_embrace";
+    $host = "db5014442073.hosting-data.io";
+    $user = "dbu1522174";
     $pass = "Embrace2023!";
-    $db = "id21154007_formularioencuesta";
+    $db = "dbs12009232";
 
     $conexion = mysqli_connect($host, $user, $pass, $db);
 

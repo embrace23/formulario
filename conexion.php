@@ -1,10 +1,10 @@
 <?php
 function Conexion()
 {
-    $host = "localhost";
-    $user = "id21154007_embrace";
+    $host = "db5014442073.hosting-data.io";
+    $user = "dbu1522174";
     $pass = "Embrace2023!";
-    $db = "id21154007_formularioencuesta";
+    $db = "dbs12009232";
 
     $conexion = mysqli_connect($host, $user, $pass, $db);
 
@@ -15,7 +15,7 @@ function Conexion()
         if ($result){
             while ($row = mysqli_fetch_assoc($result)){
                 $ticket_id = $row["TKT"];
-                $url = "https://formularioembrace23.000webhostapp.com/muestra_ticket.php?ticket=$ticket_id";
+                $url = "http://worldmedicalcare.com/encuesta/muestra_ticket.php?ticket=$ticket_id";
 
                 $updateQuery = "UPDATE formulario_prueba SET URL = '$url' WHERE TKT = '$ticket_id'";
                 mysqli_query($conexion, $updateQuery);
